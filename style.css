@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    border: 2px solid black;
+    width: 100vw;
+    height: 43px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box > #food{
+    display:inline;
+    color: rgb(183, 76, 0);
+    position: relative;
+    left: 177px;
+    box-sizing: border-box;
+}
+.box > #wagon{
+    display:inline;
+    color: rgb(255, 242, 0);
+    position: relative;
+    left: 177px;
+    box-sizing: border-box;
+}
+.box > #Deliver{
+    display:inline;
+    /* color: rgb(255, 242, 0); */
+}
+.box > #curent{
+    display:inline;
+    /* color: rgb(255, 242, 0); */
+}
+
+.box .search {
+    display: inline;
+    position: relative;
+    left: 341px;
+
+}
+.box .search > #log {
+    position: relative;
+    left: 0px;
+    border: 2px solid yellow;
+    width: 60px;
+    border-radius: 6px;
+    /* border-top: 12px; */
+
+}
+.centercontent {
+    border: 2px solid black;
+    width: 100vw;
+    height: 57vh;
+    position: relative;
+    top: 8px;
+    left: -2px;
+    right: 0px;
+    box-sizing: border-box;
+    background-color: yellow;
+    font-size: 250%;
+    /* align-content: center; */
+    
+}
+.centercontent  > .are {
+    align-content: center;
+    position: relative;
+    left: 196px;
+    top: 54px;
+    font-size: 130%;
+    color: white;
+}
+.centercontent  > .meal {
+    align-content: center;
+    position: relative;
+    left: 196px;
+    top: 54px;
+    font-size: 45%;
+    color: white;
+}
+.centercontent  > .image {
+    align-content: center;
+    position: relative;
+    left: 719px;
+    top: 54px;
+    font-size: 55%;
+    color: white;
+    width:34px ;
+}
+.box .cebox {
+    position: relative;
+    top: -98px;
+    border: 2px solid black;
+    width: 350px;
+    height: 70px;
+    left: 203px;
+    background-color: white;
+    border-radius: 12px;
+}
